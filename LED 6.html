@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+	
+<title>LED 6</title>
+
+<style type="text/css">
+	  body{
+	  	background-color: #DDDDDD;
+	  }
+	  #return a{
+	  	text-decoration: none;
+	  }
+	#Redbtn {
+		background-color: red;
+		color: #fff;
+		width: 120px;
+		height: 50px;
+		border-radius:10px;
+		cursor: pointer;
+	}
+	#Greenbtn {
+		background-color: green;
+		color: #fff;
+		width: 120px;
+		height: 50px;
+		border-radius:10px;
+		cursor: pointer;
+	}
+	#Bluebtn{
+		background-color: blue;
+		color: #fff;
+		width: 120px;
+		height: 50px;
+		border-radius:10px;
+		cursor: pointer;
+	}
+	#Display{
+		background-color:#CCFF99;
+		color: #fff;
+		width: 330px;
+		height: 35px;
+		border-radius:10px;
+		cursor: pointer;
+	}
+
+	</style>
+
+</head>
+ <body>
+  
+<center>
+	<br>
+	<h2>You have selected LED 6</h2>
+	<br>
+	<h2>Choose the colour</h2>
+	</center>
+	<br>
+	</center>
+	<br>
+	
+<center>
+
+	<div>
+    <a href="https://api.thingspeak.com/update?api_key=EYEON5OR9U5D4JJA&field1=6&field2=16711680"><button id="Redbtn">RED</button></a>
+    </div>
+
+<br><br>
+
+    <div>
+    <a href="https://api.thingspeak.com/update?api_key=EYEON5OR9U5D4JJA&field1=6&field2=32768"><button id="Greenbtn">GREEN</button></a>
+    </div>
+
+<br><br>
+
+    <div>
+  	<a href="https://api.thingspeak.com/update?api_key=EYEON5OR9U5D4JJA&field1=6&field2=255"><button id="Bluebtn">BLUE</button></a>
+  	</div>
+  	<br><br>
+  	<div id="return">
+<button id="Display"><a href="LED grid.html">Display the output</a></button>
+	</div>
+</center>
+  </body>
